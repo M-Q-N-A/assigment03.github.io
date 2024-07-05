@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  /* Styling for the card */
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image {
+    height: 200px;
+    background-image: url(/pizza-3007395_1280.jpg); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .card-footer {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  .card-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card-button:hover {
+    background-color: #45a049;
+  }
+</style>
+<title>Food Panda App Card</title>
+</head>
+<body>
+
+<!-- Card structure -->
+<div class="card">
+  <div class="card-image"></div>
+  <div class="card-content">
+    <div>
+      <div class="card-title">Delicious Pizza</div>
+      <div class="card-description">Topped with fresh ingredients</div>
+    </div>
+    <div class="card-footer">
+      <div class="card-price">$12.99</div>
+      <button class="card-button">Order Now</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
